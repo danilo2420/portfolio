@@ -1,0 +1,37 @@
+#main{
+    aspect-ratio: 100 / 35;
+    margin: 6vw 4vw;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    transition: 0.5s;
+}
+
+#main #mainBox h1{
+    font-size: calc(100vw / 7);
+    line-height: 0.8;
+    margin-bottom: 4%;
+    max-width: 50%;
+
+    transition: 0.4s;
+}
+
+#main #mainBox h1:hover{
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+
+#main #mainBox p{
+    font-size: clamp(4px, calc(100vw / 120), calc(100vw / 120));
+}
+
+body{
+    transition: 0.5s;
+}
+
+body:hover{
+    background-color: var(--light-blue);
+}
